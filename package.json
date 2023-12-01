@@ -1,0 +1,18 @@
+{
+  "name": "curso-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
+    "start:classes": "tsc basics/classes.ts --outdir dist/ && node dist/classes.js",
+    "start:functions": "tsc basics/functions.ts --outdir dist/ && node dist/functions.js",
+    "start:namespace": "tsc advanced/namespace.ts advanced/index.ts --outfile dist/namespace.js && node dist/namespace.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
